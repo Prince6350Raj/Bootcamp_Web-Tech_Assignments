@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+    body {
+        background-color: grey;
+    }
+    
+    .register {
+        border: 2px solid black;
+        background-color: wheat;
+        padding: 10px 100px;
+        margin: auto;
+        margin-top: 30px;
+        width: 600px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    
+    label {
+        font-size: 25px;
+    }
+    
+    input {
+        margin-bottom: 15px;
+    
+        border: 2px solid black;
+        border-radius: 3px;
+        font-size: 20px;
+    }
+    
+    textarea {
+        width: 300px;
+        height: 150px;
+        border: 2px solid black;
+        border-radius: 3px;
+    }
+    
+    .input {
+        width: 300px;
+        height: 30px;
+    }
+    
+    #submit {
+        width: 100px;
+        padding: 10px;
+        font-size: 15px;
+        color: black;
+        background-color: aquamarine;
+    }
+    
+    .file {
+        width: 300px;
+    }
+    h2 {
+    text-align: center;
+    font-size: 50px;
+}
+</style>
+</head>
+<body>
+    <h2>HTML5 FORM </h2>
+    <form action="">
+        <div class="register">
+            <label>First Name</label><br>
+            <input class="input" type="text" placeholder="enter your first name"><br>
+
+            <label>Last Name</label><br>
+            <input class="input" type="text"placeholder="enter your last name"><br>
+
+            <label>Date of Birth</label><br>
+            <input class="input" type="date" placeholder="enter your DOB"><br>
+
+            <label>Mobile Number:</label><br>
+            <input class="input" type="tel" placeholder="enter your phone"><br>
+
+            <label>E-Mail:</label><br>
+            <input class="input" type="email" placeholder="prince123@gmail.com"><br>
+           
+            <label>Address</label><br>
+            <input class="input" type="number" placeholder="enter your address"><br>
+
+            <u><label for="radio">Gender: </label><br></u>
+            <input type="radio" name="gender"></input>Male<br>
+            <input type="radio" name="gender"></input>Female<br>
+            <input type="radio" name="gender"></input>Transgender<br>
+            
+            <label>Password</label><br>
+            <input class="input" type="password" placeholder="enter your password"><br>
+
+            <label>Upload File</label><br>
+            <input class="file" type="file"><br>
+
+            <label>Describe Yourself:</label><br>
+            <textarea></textarea><br>
+
+            <input type="submit" id="submit">
+
+        </div>
+    </form>  
+</body>
+</html>
